@@ -1,4 +1,4 @@
-From my opinion, it's a good method for progress that stydying and record the trail .
+From my opinion, it's a good method for progress that studying and record the trail .
 1.
 I learnt some crawler technology for obtain public resource, it's implement by Python.The packages of we need are requests and lxml, and I will describe their use later.
 First I build the character string to store the url, since I need to get the wanted recource on some website.And I build the header string since if when I send request to some web site by coding may fail.Therefore, it's necessary to hide my identity, then I need to call the get function of requests, and assign the parameter url and header for get function.By the way, get is one of the request method, so before I call what method function, I need to check my aiming site on browser,  and get the class of method.Then if I want to get some text recource, may be I need to set the encoding type like resp.encoding = 'utf-8' such that it can display some special character like kanji.
